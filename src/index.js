@@ -1,3 +1,8 @@
-// 业务代码需要引入语言包
+const $ = require("jquery");
+const lodash = require("lodash");
 
+$.ajax({
+    url: "https://www.baidu.com"
+})
 
+lodash.isArray([]);

@@ -2,7 +2,7 @@ const $ = require("jquery");
 const lodash = require("lodash");
 
 $.ajax({
-    url: "https://www.baidu.com"
+    url: "",
 })
 
-lodash.isArray([]);
+console.log(lodash.isArray([]))

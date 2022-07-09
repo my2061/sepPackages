@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode=development",
+    "prod": "webpack --mode=production",
+    "dll": "webpack --mode=production --config webpack.dll.config.js",
+    "auto": "webpack --config webpack.auto.config.js"
   },
   "repository": {
     "type": "git",
